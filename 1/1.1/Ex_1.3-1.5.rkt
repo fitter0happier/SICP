@@ -36,7 +36,3 @@
 ;2) The interpreter will not try to evaluate the operands until they are needed. In this case, it won't happen
 ;until if-conditional. It will then evaluate the operand x, and since the argument is 0, the procedure returns 0
 ;without the need to evaluate second operand.
-
-
-
-

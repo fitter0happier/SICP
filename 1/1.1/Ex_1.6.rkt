@@ -33,6 +33,3 @@
 ;it will lead to new-if always trying to evaluate third parameter, which is the recursive call of the sqrt-iter function, resulting in infinite recursion and memory overrun.
 ;Normal if-conditional in that case would first evalutate the predicate and then the corresponding consequent if the flag is #t or alternative if #false. So it doesn't call sqrt-iter again unless
 ;the guess is not precise enough
-
-
-
