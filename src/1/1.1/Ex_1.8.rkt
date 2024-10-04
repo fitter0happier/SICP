@@ -1,6 +1,6 @@
 #lang scheme
 
-;Exercise 1.8
+;; Exercise 1.8
 
 (define (square a) (* a a))
 
